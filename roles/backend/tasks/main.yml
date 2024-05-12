@@ -54,7 +54,7 @@
 
 - name: load schema into backend
   community.mysql.mysql_db:
-    name: my_sql
+    name: all
     login_user: "{{ login_user }}"
     login_password: "{{ login_password }}"
     login_host: "{{ login_host }}"
